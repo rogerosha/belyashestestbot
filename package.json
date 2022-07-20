@@ -1,0 +1,24 @@
+{
+  "name": "belyashestestbot",
+  "version": "1.0.0",
+  "description": "an attempt to create a chat bot in Telegram",
+  "main": "./src/bot.js",
+  "scripts": {
+    "start": "node ./src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerosha/belyashestestbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogerosha/belyashestestbot/issues"
+  },
+  "homepage": "https://github.com/rogerosha/belyashestestbot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "grammy": "^1.9.1"
+  }
+}
